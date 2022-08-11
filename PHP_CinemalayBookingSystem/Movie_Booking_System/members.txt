@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	h1 {text-align: center;}
+	p {text-align: center;}
+</style>
+</head>
+
+<body>
+	<body bgcolor="black">
+	<font face="Times New Roman" color="white"> 
+	<h1><p align="center"> We are from CS1104B Diploma in Science Computer </p></h1>
+	<p align="center"><img src="uitm.png"
+	width="700" height="300"> </a> </p>
+	
+	<h3><p align="center"> GROUP MEMBERS </p></h3>
+	<style>	
+	table { margin-left: auto; margin-right: auto; center; width: 50%;}
+	th, td {text-align: center; padding: 7px; border: 3px solid pink;}
+	tr {background-color: white; color:black;}
+	th {background-color: black; color: white;}
+	</style>
+	
+	<table>
+	<tr>
+		<th> NAME </th>
+		<th> STUDENT ID </th>
+		<th> PICTURE </th>
+	</tr>
+
+	<tr>
+		<td> IMAN FATASYA BINTI IZANI </td>
+		<td> 2020491972 </td>
+		<td><img src="assets/img/iman.jpeg"width="200" height="300"></td>
+	</tr>
+
+	<tr>
+		<td> NUR ALIA NAZIHAH BINTI ABU BAKAR </td>
+		<td> 2020811896 </td>
+		<td><img src="assets/img/izzaty.jpeg"width="200" height="300"></td>
+	</tr>
+
+	<tr>
+		<td> NUR IZZATY AMIRAH BINTI AHMAD SHAKRI </td>
+		<td> 2020858122 </td>
+		<td> img src="alia.png" </td>
+	</tr>
+	</table>
+	</font>
+
+</body>
+</html>

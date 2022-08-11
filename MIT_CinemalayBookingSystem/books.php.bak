@@ -1,0 +1,25 @@
+<?php
+/* include db connection file */
+include("dbconn.php");
+
+	$movie_id = $_POST['s_movie_id'];
+	$ts_id = $_POST['s_ts_id'];
+	$lastname = $_POST['s_lastname'];
+	$firstname = $_POST['s_firstname'];
+	$contact_no = $_POST['s_contact'];
+	$qty = $_POST ['s_qty'];
+	$date = $_POST ['s_date'];
+	$time = $_POST ['s_time'];
+	$receipt = $_POSt ['s_receipt'];
+	$theater_id = $_POST ['s_theater_id'];
+	
+	$sql2 = "INSERT INTO books (movie_id, ts_id, lastname, firstname, contact, qty, date, time, receipt)
+	VALUES (" . $movie_id . ", " . $ts_id . ",'" . $lastname . "', '" . $firstname . "', " . $contact . ", 
+	" . $qty . ", ' " . $date . ' ", ' " . $time . " ', ' " . $receipt . ' ")";
+	
+	$sql2 = 
+	mysqli_query($dbconn, $sql2) or die ("Error: " . mysqli_error($dbconn));
+	/* display a message */
+	echo $sql2;
+	echo "Data has been saved";
+?>
